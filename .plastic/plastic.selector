@@ -1,0 +1,4 @@
+repository "Contagious@Clueless_Studio_Pro@cloud"
+  path "/"
+    br "/main"
+    co "/main"

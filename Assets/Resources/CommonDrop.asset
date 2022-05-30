@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae4e8c19f1896b4f809d8de555bfe4b, type: 3}
+  m_Name: CommonDrop
+  m_EditorClassIdentifier: 
+  potentialDrops:
+  - item: {fileID: 11400000, guid: 9d39fdd7a3cd89a40adaab78b1bb4f33, type: 2}
+    relativeChance: 1
+    minNumber: 1
+    maxNumber: 1
+  - item: {fileID: 11400000, guid: ba5e21addd4ad594a89420ffd3f951f1, type: 2}
+    relativeChance: 1
+    minNumber: 1
+    maxNumber: 1
+  - item: {fileID: 11400000, guid: 4b2be440d714bbe4aa51f1e25800287e, type: 2}
+    relativeChance: 1
+    minNumber: 0
+    maxNumber: 0
+  - item: {fileID: 11400000, guid: ec37cf52eaa517247a6ebd13f6d80679, type: 2}
+    relativeChance: 1
+    minNumber: 0
+    maxNumber: 0
+  - item: {fileID: 11400000, guid: 97c20237cfe11f64d88a9c9183ccf203, type: 2}
+    relativeChance: 1
+    minNumber: 0
+    maxNumber: 0
+  - item: {fileID: 11400000, guid: cc36afeb3733f4d47b2639892fb3024b, type: 2}
+    relativeChance: 1
+    minNumber: 0
+    maxNumber: 0
+  dropChangePercentage:
+  - 25
+  - 40
+  - 60

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36bd1711852e0574ea14df5b0488aa49, type: 3}
+  m_Name: Mittens
+  m_EditorClassIdentifier: 
+  itemID: 6fe14939-0161-42e3-9e63-677c5f1f4628
+  displayName: Mittens
+  description: Soooo Comfyyyyyy. +3 Armor.
+  icon: {fileID: 21300000, guid: 232e058cd443b5849859ab24a86efd9a, type: 3}
+  pickup: {fileID: 5998360189563335315, guid: c66742ccb32f76749b6402102c056a89, type: 3}
+  stackable: 0
+  allowedEquipLocation: 4
+  additiveModifiers:
+  - stat: 1
+    value: 3
+  percentageModifiers: []

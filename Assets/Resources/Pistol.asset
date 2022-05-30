@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b90a32c5e2837ef40a049d28f191e7f9, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  itemID: cf6932e1-01eb-45c5-9fe0-514e30e11279
+  displayName: Pistol
+  description: Just a regular pistol. The ol' reliable.
+  icon: {fileID: 21300028, guid: 5acb27b603af6d44ea6113c4b7b15385, type: 3}
+  pickup: {fileID: 5998360189563335315, guid: c66742ccb32f76749b6402102c056a89, type: 3}
+  stackable: 0
+  allowedEquipLocation: 3
+  equippedPrefab: {fileID: 6049445721538891152, guid: 3c3db87a5bd7dc14da9221caded6f17c,
+    type: 3}
+  weaponDamage: 25

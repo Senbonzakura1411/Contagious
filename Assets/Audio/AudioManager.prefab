@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8615546025335962486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8615546025335962484}
+  - component: {fileID: 8615546025335962485}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8615546025335962484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8615546025335962486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.082573, y: -18.27351, z: 13.680933}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8615546025335962485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8615546025335962486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b72f26677b6dfa478d0b4a34e9e8998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: select
+    clip: {fileID: 8300000, guid: 1bff10163e2047748ac2f0d293d711e1, type: 3}
+    volume: 0.505
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: changeToPistol
+    clip: {fileID: 8300000, guid: af785461d0779f243a63902c14746818, type: 3}
+    volume: 0.5
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: changeToRifle
+    clip: {fileID: 8300000, guid: 40e74e30629ca9241bfc8b8734625684, type: 3}
+    volume: 0.511
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: changeToShotgun
+    clip: {fileID: 8300000, guid: 4ba7229658bae574793c5b2dbef23009, type: 3}
+    volume: 0.538
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: dropItem
+    clip: {fileID: 8300000, guid: 0564b2c82cc4d714d9dfc68292bff12e, type: 3}
+    volume: 0.544
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: footstep1
+    clip: {fileID: 8300000, guid: d82f276d0cc06c448a513b6d858a0f6a, type: 3}
+    volume: 0.522
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: footstep2
+    clip: {fileID: 8300000, guid: 66dfe1c7ff2d4934ba1fe51ed812bfad, type: 3}
+    volume: 0.522
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: gunShot1
+    clip: {fileID: 8300000, guid: 8906a9c04e4454745a060baa0e6879b0, type: 3}
+    volume: 0.5
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: gunShot2
+    clip: {fileID: 8300000, guid: 2b6470ab3c992304698a290b193f4f81, type: 3}
+    volume: 0.483
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 316
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: gunShot3
+    clip: {fileID: 8300000, guid: 98bd4d879bd15d34082774d6a7f688fa, type: 3}
+    volume: 0.538
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: inventoryClose
+    clip: {fileID: 8300000, guid: e674e98942cff854ebc412b71dd0af08, type: 3}
+    volume: 0.494
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: pickupItem
+    clip: {fileID: 8300000, guid: 72086ab52424ad04581550b596788f33, type: 3}
+    volume: 0.522
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: scream
+    clip: {fileID: 8300000, guid: ae5d5d66feaaf7745be116e0515d7e9e, type: 3}
+    volume: 0.368
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: shotgun
+    clip: {fileID: 8300000, guid: d5890298e2c26e8458dce2753c1d812b, type: 3}
+    volume: 0.549
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: zombie1
+    clip: {fileID: 8300000, guid: 74f0de0ce82ff2e42af9859e0a0ae5d6, type: 3}
+    volume: 0.533
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: zombie2
+    clip: {fileID: 8300000, guid: 6549fa75aa777e044b823d0b0be65236, type: 3}
+    volume: 0.527
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: zombie3
+    clip: {fileID: 8300000, guid: 667d5d2144aa0e44c8190c1fe19ee76b, type: 3}
+    volume: 0.494
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: zombie4
+    clip: {fileID: 8300000, guid: de630b35f0ea2674baaeb88ee38844b3, type: 3}
+    volume: 0.461
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: actionMusic1
+    clip: {fileID: 8300000, guid: 5e17c5d6dd24f424fb852d5600eeb838, type: 3}
+    volume: 0.483
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: menuMusic1
+    clip: {fileID: 8300000, guid: 04e9ebf24eca86f4885ebf0b6d4d5cfc, type: 3}
+    volume: 0.478
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: actionMusic2
+    clip: {fileID: 8300000, guid: f9661bd6296ca7b4e8a3f4e25584c959, type: 3}
+    volume: 0.483
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: actionMusic3
+    clip: {fileID: 8300000, guid: 854eea3b75f8f7b468494466879ebbd0, type: 3}
+    volume: 0.467
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: rifleShot1
+    clip: {fileID: 8300000, guid: 5a7cb302262d79b4aaad02c6191e0734, type: 3}
+    volume: 0.456
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: shotgunShot1
+    clip: {fileID: 8300000, guid: 54560a63199252d45b2a22f8d9883885, type: 3}
+    volume: 0.467
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: rifleReload
+    clip: {fileID: 8300000, guid: e69f897c5c21fa3419f4cb562ee4ba78, type: 3}
+    volume: 0.478
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: pistolReload
+    clip: {fileID: 8300000, guid: d7c0cd76b38993c4fb2eb2d01d3577ba, type: 3}
+    volume: 0.45
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: shotgunReload
+    clip: {fileID: 8300000, guid: 7e760cb80ddbf114f9da01d31bd2b809, type: 3}
+    volume: 0.45
+    pitch: 1.01
+    spatialblend: 0
+    rolloffMode: 0
+    minDistance: 0
+    maxDistance: 0
+    loop: 0
+    source: {fileID: 0}
+  audioMixer: {fileID: 24300002, guid: daa514dc25daab741b75c6af871b82e9, type: 2}
