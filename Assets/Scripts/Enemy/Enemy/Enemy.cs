@@ -109,6 +109,7 @@ public class Enemy : MonoBehaviour
     public void Death()
     {
         AudioManager.Instance.Play("scream");
+        gameObject.GetComponent<Collider>().enabled = false;
         SetDeath();
         SetAnimations();
         GetComponent<RandomDropper>().RandomDrop();
